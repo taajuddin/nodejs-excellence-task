@@ -2,7 +2,6 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 const isEmail = require('validator/lib/isEmail')
 
-//set up a mongoose model.
 const condidateSchema = new Schema({
     name: {
         type: String,
